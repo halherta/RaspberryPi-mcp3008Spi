@@ -10,4 +10,8 @@ http://hertaville.com/2013/07/24/interfacing-an-spi-adc-mcp3008-chip-to-the-rasp
 
 ========================================================================================
 To build example binary natively on the Raspberry Pi:
+
 g++ -fpermissive -Wall mcp3008Spi.cpp mcp3008SpiTest.cpp -o outBin
+
+
+Make sure that the mcp3008Spi.h header file is in the work directory.
