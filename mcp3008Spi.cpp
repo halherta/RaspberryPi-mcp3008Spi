@@ -79,6 +79,7 @@ int mcp3008Spi::spiWriteRead( unsigned char *data, int length){
   struct spi_ioc_transfer spi[length];
   int i = 0;
   int retVal = -1; 
+  bzero(spi, sizeof spi); // ioctl scrtuct must be zeroed 
  
 // one spi transfer for each byte
  
