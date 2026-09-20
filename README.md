@@ -1,3 +1,5 @@
+
+
 halherta-RaspberryPi-mcp3008Spi
 ===========================================================================================================
 Author: Hussam Al-Hertani
@@ -11,4 +13,4 @@ To build example binary natively on the Raspberry Pi:
 g++ -fpermissive -Wall mcp3008Spi.cpp mcp3008SpiTest.cpp -o outBin
 
 
-Make sure that the mcp3008Spi.h header file is in the work directory.
+Make sure that the mcp3008Spi.h header file is in the work directory. The example opens the SPI device /dev/spidev0.0.
